@@ -76,9 +76,8 @@ public final class MathSequences {
      * @param  name of figure
      * @return sum result.
      */
-    public static int defineFigureTops() { // TODO** create Enum and replace method parameter.
+    public static int defineFigureTops(Figure figure) { // TODO** create Enum and replace method parameter.
 
-         Figure figure = Figure.circle;
             switch (figure) {
                 case triangle:
                     return 3;
@@ -120,9 +119,15 @@ public final class MathSequences {
      */
     public static int harmonicProgression(int a, int q, int count) {
         int result = a;
+        int sum2=0;
+        for(int i =1;i<count;i++){
+            result *=q;
+            sum2=((result+a)*count)/2;
+
+        }
 
         // TODO complete this. Calc Harmonic Progression.
-        return result;
+        return sum2;
     }
 
     /**
@@ -135,10 +140,13 @@ public final class MathSequences {
      */
     public static int arithmeticProgression(int a, int q, int count) {
       int result = a;
-      for(int i = 0;i <= count;i++){
-          result +=q;}
+      int sum1=0;
+      for(int i = 1;i < count;i++){
+          result+=q;
+          sum1 =((a + result)*count)/2;
+         }
       // TODO complete this. Calc Arithmetic Progression.
-        return result;
+        return sum1;
     }
 
     private MathSequences() {

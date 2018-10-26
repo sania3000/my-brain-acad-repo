@@ -19,7 +19,7 @@ public class Lab3Test {
         System.out.println();
 
         // Part 3
-        System.out.println("circle has " + defineFigureTops() + " tops");
+        System.out.println("circle has " + defineFigureTops(Figure.circle) + " tops");
         // TODO call for rectangle or other.
 
         // Part 4 (by variant)
