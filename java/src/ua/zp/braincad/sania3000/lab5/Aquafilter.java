@@ -1,9 +1,9 @@
 package ua.zp.braincad.sania3000.lab5;
 
 public class Aquafilter {
-    private int power;      //мощность
+    private int power;                  //мощность
     private double powerConsumption;   //потребление электроенергии
-   public Aquafilter(int power,int powerConsumption){
+   public Aquafilter(int power,double powerConsumption){
         this.power=power;
         this.powerConsumption=powerConsumption;
     }

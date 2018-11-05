@@ -9,8 +9,6 @@ public class Herb {                     //растение
     }
 
 
-
-
     public String getColour() {
         return colour;
     }

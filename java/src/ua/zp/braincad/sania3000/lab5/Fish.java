@@ -15,15 +15,17 @@ public class Fish {
         System.out.println("рыбка кушает");
 
     }
-        public int getLength() {
-            return length;
-        }
-            public String getColour() {
-        return colour;
+
+    public int getLength () {
+        return length;
     }
 
     public void setLength ( int length ) {
         this.length = length;
+    }
+
+    public String getColour () {
+        return colour;
     }
 
     public void setColour ( String colour ) {
