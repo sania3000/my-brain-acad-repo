@@ -1,4 +1,4 @@
-package ua.zp.bracad.bratchvv.lab7;
+package ua.zp.braincad.sania3000.lab7;
 
 public class Simple {
     public String data = "Simple";

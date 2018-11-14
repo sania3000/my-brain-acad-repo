@@ -1,12 +1,12 @@
-package ua.zp.bracad.bratchvv.lab7;
+package ua.zp.braincad.sania3000.lab7;
 
-import ua.zp.bracad.bratchvv.lab7.animals.Animal;
-import ua.zp.bracad.bratchvv.lab7.animals.Cat;
-import ua.zp.bracad.bratchvv.lab7.animals.Dog;
-import ua.zp.bracad.bratchvv.lab7.compose.TestA;
-import ua.zp.bracad.bratchvv.lab7.compose.TestB;
-import ua.zp.bracad.bratchvv.lab7.devices.Pad;
-import ua.zp.bracad.bratchvv.lab7.devices.SmartPhone;
+import ua.zp.braincad.sania3000.lab7.animals.Animal;
+import ua.zp.braincad.sania3000.lab7.animals.Cat;
+import ua.zp.braincad.sania3000.lab7.animals.Dog;
+import ua.zp.braincad.sania3000.lab7.compose.TestA;
+import ua.zp.braincad.sania3000.lab7.compose.TestB;
+import ua.zp.braincad.sania3000.lab7.devices.Pad;
+import ua.zp.braincad.sania3000.lab7.devices.SmartPhone;
 
 public class Lab7Test {
 

@@ -1,4 +1,4 @@
-package ua.zp.bracad.bratchvv.lab7.devices;
+package ua.zp.braincad.sania3000.lab7.devices;
 
 import java.util.Objects;
 

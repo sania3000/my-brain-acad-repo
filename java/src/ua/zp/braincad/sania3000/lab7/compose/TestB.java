@@ -1,4 +1,4 @@
-package ua.zp.bracad.bratchvv.lab7.compose;
+package ua.zp.braincad.sania3000.lab7.compose;
 
 public class TestB extends TestA {
 
