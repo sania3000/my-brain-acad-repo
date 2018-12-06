@@ -13,7 +13,7 @@ public class Main {
 
          MyTestMethod.calcNum(array1,3);
          MyTestMethod.calcNum(array2,2.0);
-         MyTestMethod.calcSum(array1,3);
+        // MyTestMethod.calcSum(array1,3);
 
          MyMixer<Integer> myMixer=new MyMixer<>(array1);
          myMixer.shuffle();
