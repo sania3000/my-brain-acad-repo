@@ -1,28 +1,27 @@
-package ua.zp.braincad.sania3000.lab7;
+package ua.zp.braincad.sania3000.Lab8;
 
-import ua.zp.braincad.sania3000.lab7.animals.Animal;
-import ua.zp.braincad.sania3000.lab7.animals.Cat;
-import ua.zp.braincad.sania3000.lab7.animals.Dog;
-import ua.zp.braincad.sania3000.lab7.animals.Pinguin;
-import ua.zp.braincad.sania3000.lab7.compose.TestA;
-import ua.zp.braincad.sania3000.lab7.compose.TestB;
-import ua.zp.braincad.sania3000.lab7.devices.Pad;
-import ua.zp.braincad.sania3000.lab7.devices.SmartPhone;
+import ua.zp.braincad.sania3000.Lab8.inheritance.animals.Animal;
+import ua.zp.braincad.sania3000.Lab8.inheritance.animals.Cat;
+import ua.zp.braincad.sania3000.Lab8.inheritance.animals.Dog;
+import ua.zp.braincad.sania3000.Lab8.inheritance.compose.TestA;
+import ua.zp.braincad.sania3000.Lab8.inheritance.compose.TestB;
+import ua.zp.braincad.sania3000.Lab8.inheritance.devices.Pad;
+import ua.zp.braincad.sania3000.Lab8.inheritance.devices.SmartPhone;
+import ua.zp.braincad.sania3000.Lab8.polymorphism.Simple;
+import ua.zp.braincad.sania3000.Lab8.polymorphism.Specific;
 
-public class Lab7Test {
+public class Lab8Test {
 
     public static void main(String[] args) {
         System.out.println("Animal jump:");
         // TODO check it
         Animal animal = new Cat();
-        Animal pinguin = new Pinguin();
         // TODO try to uncomment
         // Cat forceCat = new Animal(); // ERROR Incompatible types.
         // ((Dog)animal).jump(); // ERROR ClassCastException
         Dog dog = new Dog();
         animal.jump();
         dog.jump();
-        pinguin.jump();
 
 
         System.out.println("\nOnly Dog jump:");
@@ -50,7 +49,6 @@ public class Lab7Test {
         SmartPhone s1 = new SmartPhone("Galaxy S8", 10_000);
         SmartPhone s2 = new SmartPhone("Galaxy S8", 10_000);
         System.out.println(s1.equals(s2));
-        System.out.println(s2);
 
 
 

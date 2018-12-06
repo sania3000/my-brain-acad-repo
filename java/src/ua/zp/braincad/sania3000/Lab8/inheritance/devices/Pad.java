@@ -1,4 +1,4 @@
-package ua.zp.braincad.sania3000.lab7.devices;
+package ua.zp.braincad.sania3000.Lab8.inheritance.devices;
 
 import java.util.Objects;
 
@@ -26,11 +26,7 @@ public class Pad {
         return Objects.hash(name, price);
     }
 
-    @Override
-    public String toString () {
-        return "Pad{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
+    public String toString() {
+        return name + " cost " + price;
     }
 }

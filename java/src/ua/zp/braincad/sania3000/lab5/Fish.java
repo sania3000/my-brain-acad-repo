@@ -1,8 +1,10 @@
 package ua.zp.braincad.sania3000.lab5;
 
 public class Fish {
+
    private int length;
    private String colour;
+
 
    public Fish(int length,String colour){
         this.length=length;

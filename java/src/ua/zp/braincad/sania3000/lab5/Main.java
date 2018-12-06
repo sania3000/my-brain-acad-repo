@@ -1,5 +1,7 @@
 package ua.zp.braincad.sania3000.lab5;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main ( String[] args ) {
 
@@ -11,9 +13,9 @@ public class Main {
         Toys[] mytoys={Toys.STONE,Toys.FLOWER,Toys.FROG,Toys.SNAKE};
         Fish[] myfishes= new Fish[myaquarium.maxfish()];
         Herb[] myherbs = new Herb[5];
+        Feeder myfeeder = new Feeder(100,20);
 
-
-        for (int i=0;i<myfishes.length;i++){
+        for (int i=0;i< myaquarium.maxfish();i++){
             myfishes[i]=new Fish(5,"red");
         }
           for (int i =0;i<myherbs.length;i++){
@@ -31,7 +33,7 @@ public class Main {
         myaquarium.setFishes(myfishes);
         myaquarium.setToys(mytoys);
         myaquarium.setHerb(myherbs);
-
+        myaquarium.setFeeder(myfeeder);
 
         System.out.println("Объем аквариума равен = "+ myaquarium.volume()+ " литрам");
         System.out.println("Максимальное кол-во рыбок в аквариуме " + myaquarium.maxfish()+" штук");

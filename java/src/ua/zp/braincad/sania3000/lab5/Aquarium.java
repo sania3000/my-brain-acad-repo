@@ -1,6 +1,11 @@
 package ua.zp.braincad.sania3000.lab5;
 
 public class Aquarium {
+    static final double ELECTRO_СOST = 0.0012;  //стоимость электроенергии за 1 вт,грн
+    static final double WATER_COST = 0.00589;   // стоимость воды за 1 литр,грн
+    static final double FOOD_COST = 1.25;       //стоимость корма за 1 грамм
+
+    
     private double width;
     private double height;
     private double depth;
@@ -19,6 +24,7 @@ public class Aquarium {
     public int maxfish(){           //максимальное кол-во рыбок
         int res = 1;
         for (int i=0;i<=volume();i++){
+
             res=i;
 
         }   return res;
@@ -34,9 +40,7 @@ public class Aquarium {
     }
 
 
-    static final double ELECTRO_СOST = 0.0012;  //стоимость электроенергии за 1 вт,грн
-    static final double WATER_COST = 0.00589;   // стоимость воды за 1 литр,грн
-    static final double FOOD_COST = 1.25;       //стоимость корма за 1 грамм
+
 
     public double calcChangewater(){                 //стоимость замены воды в месяц
         return volume()*0.25*WATER_COST;
